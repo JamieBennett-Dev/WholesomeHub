@@ -1,1 +1,1 @@
-# WholesomeHub
+# Wholesome Hub

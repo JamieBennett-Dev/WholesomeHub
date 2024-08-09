@@ -1,0 +1,73 @@
+/* Fonts */
+/* "Shadows Into Light" - TITLES */ @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/* "Dosis" - TEXT */ @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dosis:wght@200..800&family=Shadows+Into+Light&display=swap');
+
+/* -----Color variables----- */
+:root {
+    --base-gold: #BFA21C;
+    --light-gold: ;
+    --dark-gold: ;
+    --base-green: #3F6264;
+    --light-green: ;
+    --dark-green: ;
+}
+
+/* -----Basic styles----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 150vh;
+}
+
+/* -----Scrollbar----- */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #000;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--base-gold);
+    border-radius: 25vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+}
+
+/* -----Navbar----- */
+nav {
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(63, 98, 100, 0.2);
+    backdrop-filter: blur(10px);
+    font-family: "Shadows Into Light", sans-serif;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    color: #BFA21C;
+    transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+    color: var(--base-gold);
+    transform: scale(1.1);
+}
+
+.navbar-toggler {
+    color: var(--base-gold);
+    border: 2px solid #BFA21C;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28191, 162, 28, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
